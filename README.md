@@ -134,12 +134,27 @@ Execute com: `zig test exemplo_teste.zig`
 ## 📁 Estrutura do Projeto
 ```
 zig-basic/
-├── variaveis.zig      # Exemplos de variáveis e tipos
-├── loops.zig          # Exemplos de loops (for, while)
-├── funcoes.zig        # Exemplos de funções
-├── structs.zig        # Exemplos de structs
-├── vetores.zig        # Exemplos de vetores SIMD
-├── testes.zig         # Exemplos de testes unitários
+├── funcoes/           # Exemplos de funções e recursividade
+│   └── funcoes.zig
+├── hello_world/       # Primeiros passos com Zig
+│   └── hello_world.zig
+├── lacos/             # Exemplos de loops (for, while)
+│   └── lacos.zig
+├── matrizes/          # Exemplos de matrizes e arrays
+│   └── matrizes.zig
+├── operadores/        # Operadores aritméticos, bitwise e comparação
+│   └── operadores.zig
+├── struct/            # Exemplos de structs e tipos compostos
+│   └── struct.zig
+├── testes/            # Exemplos de testes unitários
+│   └── testes.zig
+├── valores/           # Exemplos de tipos de dados e valores
+│   └── valores.zig
+├── variaveis/         # Variáveis, constantes e escopos
+│   └── variaveis.zig
+├── vetores/           # Vetores SIMD e operações paralelas
+│   └── vetores.zig
+├── LICENSE            # Licença do projeto
 └── README.md          # Este arquivo
 ```
 
